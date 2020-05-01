@@ -18,24 +18,114 @@ body{
 
 }
 h2{
-    font-size: 3rem;
+    font-size: 2rem;
     text-transform: uppercase;
 }
-
-header{
-    position: fixed;
+/* header styles*/
+nav{
+    width: 100%;
+    background-color: #232323;
+    padding-left: 30px;
+    padding-right: 10px;
+}
+.logo {
+    display: inline-block;
+  }
+.logo img{
+    width: 30px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links {
+    list-style: none;
     display: flex;
 }
+.nav-item a {
+    display: inline-block;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 200;
+}
+.nav-item:hover {
+    background-color: white;
+}
+.nav-item:hover a {
+    color: darkgreen;
+} 
+.logo img {
+    width: 50px;
+    vertical-align: middle;
+    padding: 10px;
+}
+/* header section*/
+.header{
+    height: 600px;
+    background: url(img/paul-gilmore-KT3WlrL_bsg-unsplash.jpg) no-repeat center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+.header_contain h1{
+    font-size: 3rem;
+    margin-bottom: 5px;
+}
+.name_underline{
+    color: #54be90;
+    display: inline-block;
+    border-bottom: 7px solid white;
+}
+/* services section*/
+.extra {
+    width: 80%;
+    margin: 4rem auto;
+    text-align: center;
+    font-size: 1.05rem;
+    display: block;
+}
+.services{
+    display: flex;
+    background-color: #232323;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.service{
+    width: 20%;
 
-
+}
+.circle{
+    width: 8rem;
+    height: 8rem;
+    background-color: white;
+    border-radius: 50%;
+    margin: -4rem auto 2rem auto;
+    margin-top: -4rem;
+}
+.service h3{
+    color: #54be90;
+    margin: 1rem 0;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+.service p{
+    margin: 2rem 1rem 3rem;
+    font-weight: 400;
+}
 /* contact form section*/
 #contact_me, form{
     background-color:#54be90;
-    color: white;
 }
 #contact_me h2{
-    text-align: center;
-    text-transform: uppercase;
     margin-bottom: 20px;
 }
 button, select {
